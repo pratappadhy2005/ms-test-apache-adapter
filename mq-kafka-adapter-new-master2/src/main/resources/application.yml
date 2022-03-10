@@ -1,0 +1,11 @@
+strip:
+  file:
+    listener:
+      queue:
+        mq1Queue:
+          Queue1: firstQueue
+          Queue2: secondQueue
+          Queue3:  thirdQueue
+          listener1: StripFileTransactionListener1
+          listener2: StripFileTransactionListener2
+          listener3: StripFileTransactionListener3
